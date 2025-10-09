@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/xml_step2_single_info.xml.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/xml/step2_single_info.xml"
+    },
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/xml_step2_responsive_info.xml.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/xml/step2_responsive_info.xml"
+    },
+    {
+        "merged": "com.example.glancesamples.app-merged_res-56:/xml_step3_state_info.xml.flat",
+        "source": "com.example.glancesamples.app-main-58:/xml/step3_state_info.xml"
+    },
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/xml_step4_action_info.xml.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/xml/step4_action_info.xml"
+    },
+    {
+        "merged": "com.example.glancesamples.app-merged_res-56:/xml_step4_action_info.xml.flat",
+        "source": "com.example.glancesamples.app-main-58:/xml/step4_action_info.xml"
+    },
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/xml_step1_widget_info.xml.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/xml/step1_widget_info.xml"
+    },
+    {
+        "merged": "com.example.glancesamples.app-merged_res-56:/xml_step2_exact_info.xml.flat",
+        "source": "com.example.glancesamples.app-main-58:/xml/step2_exact_info.xml"
+    },
+    {
+        "merged": "com.example.glancesamples.app-merged_res-56:/xml_step5_todo_info.xml.flat",
+        "source": "com.example.glancesamples.app-main-58:/xml/step5_todo_info.xml"
+    },
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/layout_placeholder_widget.xml.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/layout/placeholder_widget.xml"
+    },
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/xml_step3_state_info.xml.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/xml/step3_state_info.xml"
+    },
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/xml_step2_exact_info.xml.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/xml/step2_exact_info.xml"
+    },
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.glancesamples.app-merged_res-56:/xml_step2_single_info.xml.flat",
+        "source": "com.example.glancesamples.app-main-58:/xml/step2_single_info.xml"
+    },
+    {
+        "merged": "com.example.glancesamples.app-merged_res-56:/xml_step2_responsive_info.xml.flat",
+        "source": "com.example.glancesamples.app-main-58:/xml/step2_responsive_info.xml"
+    },
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/xml_step5_todo_info.xml.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/xml/step5_todo_info.xml"
+    },
+    {
+        "merged": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-merged_res-56:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/hwoh/.gradle/daemon/8.10/com.example.glancesamples.app-main-58:/mipmap-hdpi/ic_launcher.png"
+    }
+]

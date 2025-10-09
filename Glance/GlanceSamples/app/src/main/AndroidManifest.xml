@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Material.Light">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Step 1: Basic Widget -->
+        <receiver
+            android:name=".step1_basic.Step1WidgetReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/step1_widget_info" />
+        </receiver>
+
+        <!-- Step 2-1: Single Size Widget -->
+        <receiver
+            android:name=".step2_sizemode.Step2SingleSizeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/step2_single_info" />
+        </receiver>
+
+        <!-- Step 2-2: Exact Size Widget -->
+        <receiver
+            android:name=".step2_sizemode.Step2ExactSizeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/step2_exact_info" />
+        </receiver>
+
+        <!-- Step 2-3: Responsive Widget -->
+        <receiver
+            android:name=".step2_sizemode.Step2ResponsiveReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/step2_responsive_info" />
+        </receiver>
+
+        <!-- Step 3: State Management Widget -->
+        <receiver
+            android:name=".step3_state.Step3WidgetReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/step3_state_info" />
+        </receiver>
+
+        <!-- Step 4: Action Handling Widget -->
+        <receiver
+            android:name=".step4_action.Step4WidgetReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/step4_action_info" />
+        </receiver>
+
+        <!-- Step 5: Todo Widget -->
+        <receiver
+            android:name=".step5_practical.Step5WidgetReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/step5_todo_info" />
+        </receiver>
+
+    </application>
+
+</manifest>

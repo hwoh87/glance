@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color ic_launcher_background
+layout placeholder_widget
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+string app_name
+string step1_widget_description
+string step1_widget_name
+string step2_exact_description
+string step2_exact_name
+string step2_responsive_description
+string step2_responsive_name
+string step2_single_description
+string step2_single_name
+string step3_widget_description
+string step3_widget_name
+string step4_widget_description
+string step4_widget_name
+string step5_widget_description
+string step5_widget_name
+xml step1_widget_info
+xml step2_exact_info
+xml step2_responsive_info
+xml step2_single_info
+xml step3_state_info
+xml step4_action_info
+xml step5_todo_info

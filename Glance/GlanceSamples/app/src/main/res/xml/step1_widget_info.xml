@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Step 1: 위젯 메타데이터 (AppWidgetProviderInfo)
+
+    주요 속성:
+    - initialLayout: 위젯이 로드되기 전 표시할 플레이스홀더 레이아웃 (필수!)
+    - minWidth/minHeight: 위젯의 최소 크기 (런처가 참고하는 힌트)
+    - resizeMode: 리사이즈 가능 방향 (horizontal, vertical, none)
+    - widgetCategory: 위젯 표시 위치 (home_screen, keyguard, searchbox)
+    - updatePeriodMillis: 자동 업데이트 주기 (최소 30분, 0이면 수동만)
+    - previewImage: 위젯 선택 화면에 표시할 미리보기 (선택)
+    - description: 위젯 설명 (선택)
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/placeholder_widget"
+    android:minWidth="180dp"
+    android:minHeight="110dp"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:description="@string/step1_widget_description"
+    android:updatePeriodMillis="0" />

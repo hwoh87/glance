@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glance Samples</string>
+
+    <!-- Step 1: Basic Widget -->
+    <string name="step1_widget_name">Step1: Basic Widget</string>
+    <string name="step1_widget_description">가장 기본적인 Glance 위젯</string>
+
+    <!-- Step 2: SizeMode -->
+    <string name="step2_single_name">Step2: Single Size</string>
+    <string name="step2_single_description">SizeMode.Single - Fixed layout</string>
+    <string name="step2_exact_name">Step2: Exact Size</string>
+    <string name="step2_exact_description">SizeMode.Exact - Pixel-perfect responsive</string>
+    <string name="step2_responsive_name">Step2: Responsive Size</string>
+    <string name="step2_responsive_description">SizeMode.Responsive - Breakpoint-based (Recommended)</string>
+
+    <!-- Step 3: State -->
+    <string name="step3_widget_name">Step3: State Management</string>
+    <string name="step3_widget_description">Independent state per instance</string>
+
+    <!-- Step 4: Action -->
+    <string name="step4_widget_name">Step4: Action Handling</string>
+    <string name="step4_widget_description">Various action patterns</string>
+
+    <!-- Step 5: Practical -->
+    <string name="step5_widget_name">Step5: Todo Widget</string>
+    <string name="step5_widget_description">Practical integration example</string>
+</resources>

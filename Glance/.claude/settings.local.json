@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__serena__check_onboarding_performed",
+      "Read(//Users/hwoh/.claude/**)",
+      "mcp__serena__list_dir",
+      "Bash(for:*)",
+      "Bash(do grep -n \"^## [0-9]\\+\\. 발표용 대본\" \"$file\")",
+      "Bash(echo \"Found in: $file\")",
+      "Bash(done)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(wc:*)",
+      "Bash(do if [[ \"$file\" != \"CLAUDE.md\" ]])",
+      "Bash(then mv \"$file\" \"$file%.md⭐.md\")",
+      "Bash(fi)",
+      "Bash(mkdir:*)",
+      "Bash(./gradlew:*)",
+      "Bash(find:*)",
+      "Read(//Users/hwoh/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
